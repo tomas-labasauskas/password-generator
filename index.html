@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Generate strong passwords - Cybernews</title>
+    <meta name="description" content="Password generator." />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./img/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap">
+        <img src="./img/cb_logo.svg" alt="Cybernews logo" class="logo" />
+      </div>
+    </header>
+    <div class="learn-more">
+      <p>
+        Our readers help us create quality content. If you purchase via links on
+        our site, we may receive affiliate commissions.
+        <a
+          href="https://cybernews.com/terms-conditions/#h-affiliate-links-advertising-disclosure"
+          ><b>Learn more</b></a
+        >
+      </p>
+    </div>
+
+    <main>
+      <section class="generator">
+        <h1>Generate strong passwords</h1>
+        <p>Upgrade the security of your online accounts.</p>
+        <p>
+          Create strong passwords that are completely random and impossible to
+          guess.
+        </p>
+        <div class="input-wrap">
+          <input id="password-inp" type="text" />
+          <button id="reload-btn">
+            <img src="./img/reload.png" alt="reload" />
+          </button>
+          <button class="copy-pass">Copy Password</button>
+        </div>
+        <div class="checkbox-wrap">
+          <div>
+            <input
+              type="checkbox"
+              id="lowercase"
+              name="lowercase"
+              value="lowercase"
+              checked
+            />
+            <label for="lowercase"> lower case</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="uppercase"
+              name="uppercase"
+              value="uppercase"
+            />
+            <label for="uppercase"> upper case</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="symbols"
+              name="symbols"
+              value="symbols"
+            />
+            <label for="symbols"> special symbols</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              id="numbers"
+              name="numbers"
+              value="numbers"
+            />
+            <label for="numbers"> numbers</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="content par1">
+        <img src="./img/image1.png" alt="Password generator" />
+        <div class="text">
+          <h2>What is a password generator?</h2>
+          <p>
+            A password generator is a tool that automatically generates strong,
+            secure passwords. With its help, you don’t need to come up with your
+            own passwords ever again.
+            <br />
+            <br />
+            A single mouse click will generate you a sequence of random symbols.
+            Copy and use it as a password for your device, email, social media
+            account, or anything else that requires restricted access.
+            <br />
+            <br />
+            Also, don’t use the same password for more than one account. Each
+            time you need to sign up, create a new password using this free
+            password generator. In this way, your data will be safer than ever
+            before.
+          </p>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="text">
+          <h2>How does our password generator tool work?</h2>
+          <p>
+            To create a truly unique character combination, this online password
+            generator tool goes through random sequences of 26 uppercase
+            letters, 26 lowercase letters, 10 numeric digits, and 32 special
+            symbols. The result is a unique 12-character sequence. This number
+            of characters makes your future password downright unbreakable,
+            taking 1.4 billion years for a brute-force attack to crack it.
+            <br />
+            <br />
+            This free password generator is compatible with Windows, Linux, and
+            Mac operating systems, as well as with Android and iOS devices.
+          </p>
+        </div>
+        <img src="./img/image2.png" alt="Password generator" />
+      </section>
+    </main>
+
+    <script src="./pass-gen.js"></script>
+  </body>
+</html>

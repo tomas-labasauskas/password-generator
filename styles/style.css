@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background: #111111;
+  height: 70px;
+}
+
+header .header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1160px;
+  margin: auto;
+}
+
+header .header-wrap .logo {
+  margin-left: 1rem;
+}
+
+.learn-more {
+  font-size: 12px;
+  color: #9e9fa4;
+  margin: 24px 10px;
+  text-align: center;
+}
+
+.learn-more a {
+  color: #9e9fa4;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.learn-more a:hover {
+  color: black;
+}
+
+main {
+  margin-bottom: 8rem;
+}
+
+main .generator {
+  background: #111111;
+  color: white;
+  max-width: 1160px;
+  margin: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .generator h1 {
+  font-size: 40px;
+  padding-top: 56px;
+}
+
+main .generator p {
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 24px;
+}
+
+main .generator .input-wrap {
+  margin-top: 24px;
+  width: 694px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+main .generator .input-wrap input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0rem 3rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main .generator .input-wrap input:focus {
+  outline: none;
+}
+
+main .generator .input-wrap button {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+main .generator .input-wrap button img {
+  padding-right: 2rem;
+}
+
+main .generator .input-wrap .copy-pass {
+  background: #09a858;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  min-width: 20rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+main .generator .input-wrap .copy-pass:hover {
+  background: #078b49;
+}
+
+main .generator .checkbox-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 37px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+main .generator .checkbox-wrap div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .generator .checkbox-wrap input {
+  cursor: pointer;
+}
+
+main .generator .checkbox-wrap label {
+  font-size: 12px;
+  margin-left: 1rem;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+main .content {
+  max-width: 953px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 9rem;
+}
+
+main .content img {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+main .content .text h2 {
+  font-size: 31px;
+}
+
+main .content .text p {
+  max-width: 560px;
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-top: 1.6rem;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1195px) {
+  main .generator {
+    max-width: 100%;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main .content {
+    width: auto;
+    max-width: 100%;
+    margin: 7rem 1.5rem;
+  }
+  main .content img {
+    margin: 0rem 3rem;
+  }
+  main .content .text p {
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  main .generator .input-wrap {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  main .generator h1 {
+    font-size: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .generator p {
+    font-size: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .generator .input-wrap input {
+    font-size: 16px;
+  }
+  main .generator .input-wrap .copy-pass {
+    min-width: 14rem;
+    font-size: 14px;
+  }
+  main .generator .checkbox-wrap {
+    margin: 0rem 2rem 37px 2rem;
+  }
+  main .generator .checkbox-wrap label {
+    margin-right: 2rem;
+  }
+  main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .content img {
+    height: 20rem;
+  }
+  main .content .text h2 {
+    font-size: 22px;
+  }
+  main .par1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  main .generator {
+    text-align: left;
+  }
+  main .generator h1 {
+    padding-top: 30px;
+  }
+  main .generator p {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  main .generator .input-wrap {
+    width: 88%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  main .generator .input-wrap input,
+  main .generator .input-wrap button {
+    margin-bottom: 1rem;
+    height: 4rem;
+  }
+  main .generator .input-wrap #reload-btn {
+    background: #111111;
+    border: solid 1px white;
+  }
+  main .generator .checkbox-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 88%;
+    margin-bottom: 1rem;
+  }
+  main .generator .checkbox-wrap div {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
